@@ -1,0 +1,73 @@
+.class1{
+    font-size: 50px;
+    width: 80%;
+    margin-left: 10%;
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    border-radius: 2vh;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+
+body{
+    background-image: url('https://i.pinimg.com/originals/9e/cd/c5/9ecdc5db91b0185628ef432ee7e34dfa.jpg'); 
+    background-repeat: no-repeat; 
+    background-size: 100% 100%;
+}
+
+a:hover{
+    background-color: black;
+    border-radius: 2vh;
+    color:aquamarine;
+    text-decoration: none;
+}
+
+a{
+    color:midnightblue;
+    font-size: 40px;
+}
+
+.class2{
+    background-color:rgba(255, 255, 255, 0.7);
+    margin: 18vh 70vh;
+    width: 30%;
+    text-align: center;  
+    border-radius: 10%; 
+    padding: 10px; 
+    border: 1px solid gold; 
+    border-left-width: 5px; 
+    border-right-width: 5px;
+}
+
+#id1{
+    color: rgb(238, 255, 7);
+}
+
+.button{
+    border-radius: 1vh;
+    font-size: 25px;
+    border: 2px solid rgb(255, 215, 0);
+}
+
+.button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+
+
+.class3{
+    background-color:rgba(255, 255, 255, 0.7);
+    margin: 18vh 70vh;
+    width: 30%;
+    text-align: center; 
+    border-radius: 10%; 
+    padding: 10px; 
+    border: 1px solid gold; 
+    border-left-width: 5px; 
+    border-right-width: 5px;
+}
