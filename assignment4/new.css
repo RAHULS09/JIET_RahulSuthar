@@ -1,0 +1,59 @@
+.navbar{
+    display: flex;
+    background-color:rgba(0, 0, 0, 0.8);
+    padding: 1%;
+    margin-bottom: 40px;
+}
+
+a{
+    font-size: 150%;
+    text-decoration: none;
+    margin-left: 1%;
+    color: aquamarine;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+a:hover{
+    background-color:white;
+    color: black;
+}
+
+img{
+    height: 150px;
+    width: 100%;
+    border-color:black;
+    border-style:solid;
+    border-width:3px;
+    border-radius: 10px;
+}
+
+.divsize{
+    width: 20%;
+    height: 350px;
+    border: 7px double black;
+    padding: 15px;
+    margin-left: 5%;
+    background-color: rgba(255, 255, 255,0.9);
+    border-radius: 10px;
+}
+
+div.display{
+    display:flex;
+    width: 75%;
+    margin-left: 5%;
+    margin-right: 15%;
+    margin-bottom: 20px;
+}
+
+section{
+    margin-top: 5px;
+    color:blue;
+    height: 50%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+body{
+    background-color: crimson;
+}
