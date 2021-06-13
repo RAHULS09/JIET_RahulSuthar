@@ -5,13 +5,14 @@ body{
 
 img{
     width: 48px;
+    margin-left: 44%;
 }
 
 h1{
     font-size: 24px;
     font-weight: 300;
     letter-spacing: -.5px;
-    text-align: center;
+    margin-left: 40%;
 }
 
 label {
@@ -21,7 +22,7 @@ label {
 
 .font{
     font-weight: 375;
-    margin-left: 40%;
+    margin-left: 35%;
 }
 
 form{
@@ -34,7 +35,7 @@ form{
 
 .align{
     width: 310px;;
-    padding-left: 40%;
+    padding-left: 35%;
 }
 
 input{
@@ -63,20 +64,16 @@ button:hover{
     background-color: green;
 }
 
-.center{
-    text-align: center;
-}
-
 .signupbox{
-    padding: 15px 0px;
-    text-align: center;
+    width: 250px;
+    padding: 15px 30px;
     border: 1px solid #d1d5da;
-    border-radius: 6px
+    border-radius: 6px;
 }
 
 .navbar{
     margin-top: 2%;
-    margin-left: 40%;
+    margin-left: 35%;
     font-size: 16px;
     display:flex;
 }
@@ -106,4 +103,27 @@ a{
 
 #id1:hover{
     text-decoration: underline;
+}
+
+@media screen and (max-width: 600px){
+    img{
+        margin-left: 40%;
+    }
+
+    h1{
+        margin-left: 30%;
+        width: 175px;
+    }
+
+    .align{
+        padding-left: 8%;
+    }
+
+    .font{
+        margin-left: 8%;
+    }
+
+    .navbar{
+        margin-left: 8%;
+    }
 }
