@@ -55,5 +55,20 @@ section{
 }
 
 body{
-    background-color: crimson;
+    background-color: rgba(220, 20, 60, 0.5);
 }
+
+button{
+    border-radius: 3px;
+    background-color: skyblue;
+    border: 3px solid blue;
+}
+
+button:hover{
+    background-color: green;
+    color: floralwhite;
+    font-weight: 600;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.5), 0 17px 50px 0 rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
